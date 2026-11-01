@@ -1,0 +1,5 @@
+target/
+.idea/
+*.iml
+# локальний файл з паролем
+db.properties

@@ -1,0 +1,8 @@
+# Параметри підключення до RestaurantDB.
+# Скопіюйте цей файл у db.properties (поруч із pom.xml) і вкажіть свій пароль.
+# db.properties містить пароль, тому в git не додається (див. .gitignore).
+
+# SQL Server у Docker з проєкту RestaurantDB-Coursework (порт MSSQL_PORT з його .env)
+db.url=jdbc:sqlserver://localhost:1433;databaseName=RestaurantDB;encrypt=true;trustServerCertificate=true;loginTimeout=5
+db.user=sa
+db.password=
